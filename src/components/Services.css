@@ -46,11 +46,18 @@
     line-height: normal;
 }
 
+.service-head button:hover {
+    border: 1px solid #ED1C24;
+    background-color: #fff;
+    color: #ED1C24;
+}
+
 .service-cards {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
     margin-top: 4rem;
+    margin-bottom: 4rem;
     justify-content: center;
     align-items: center;
 }
