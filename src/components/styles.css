@@ -1078,3 +1078,69 @@ select {
 }
 
 /* About section */
+
+/* Contact */
+
+.contact{
+    margin-top: 150px;
+    background-color: #FFFFFF;
+    /* border: 2px solid red; */
+    height:900px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 39px;
+
+}
+.contact-form span{
+    color: #ED1C24;
+    font-size: 48px;
+}
+.contact-form h2{
+    font-size: 48px;
+    color: #000000;
+}
+.contact-form p{
+    margin-top: 20px;
+    width: 545px;
+    font-weight: 600;
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.contact-form input{
+    margin-top: 20px;;
+    width: 545px;
+    height: 50px;
+}
+.contact-form input::placeholder{
+    padding-left: 20px;
+}
+.c-drop{
+    width: 545px;
+    height: 50px;
+    border: 1px solid grey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-map{
+position: relative;
+}
+.i2{
+    position: absolute;
+    width: 545px;
+    height: 700px;
+    /* left: 576px; */
+    right: 150px;
+    top: 100px;
+
+}
+.c-btn{
+    background-color: #ED1C24;
+    width: 545px;
+    height: 50px;
+    border: none;
+    color: #FAFAFA;
+
+}
+/* Contact */
