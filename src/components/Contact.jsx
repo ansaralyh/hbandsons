@@ -20,6 +20,9 @@ const Contact = () => {
     <img src="/Images/Rectangle 31.png" alt="" />
     <img src="/Images/lmap.png" alt="" className='i2'/>
     </div>
+=======
+      <p>hello</p>
+
     </div>
   )
 }
