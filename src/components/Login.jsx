@@ -5,8 +5,8 @@ import {  useNavigate } from 'react-router-dom';
 
 const Login = () => {
 
-    const defaultName = "zultaif";
-    const defaultEmail = "zultaif@gmail.com";
+    const defaultName = "ansar";
+    const defaultEmail = "ansar@gmail.com";
     const defaultPassword = "12345";
     const navigate = useNavigate();
     const [formData, setFormData] = useState({
@@ -23,7 +23,7 @@ const Login = () => {
     
       const onSubmit = (e) => {
         e.preventDefault();
-        setFormData({
+        setFormData({ 
         name:"",
         email: "",
         password: "",

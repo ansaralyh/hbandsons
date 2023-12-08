@@ -1078,3 +1078,12 @@ select {
 }
 
 /* About section */
+
+
+/* Contact section */
+.contact {
+    border: 1px solid red;
+    height: 900px;
+}
+
+/* Contact section */
