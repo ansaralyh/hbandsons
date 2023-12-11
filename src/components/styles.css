@@ -931,6 +931,7 @@ select {
   width: 34.0625rem;
   height: 43.75rem;
   right: 375px;
+ 
   top: 100px;
 }
 .c-btn {
@@ -1003,3 +1004,47 @@ select {
 }
 
 /* Contact */
+
+
+/* Responsive styles for tablets */
+@media (max-width: 768px) {
+  .contact {
+    height: auto;
+  }
+
+  .conatct-cc {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .contact-form h2 {
+    font-size: 48px;
+  }
+
+  .contact-form,
+  .contact-map {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form select,
+  .c-btn {
+    width: 100%; 
+  }
+
+  .i2 {
+    display: none;
+   
+  }
+  .rectangle{
+    display: none;
+  }
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 480px) {
+  
+  .contact-form p {
+    width: auto; 
+  }
+
+}
