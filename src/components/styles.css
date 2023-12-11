@@ -1046,8 +1046,12 @@ select {
   .contact-form p {
     width: auto; 
   }
+  .contact-cc {
+    height: auto;
+  }
   .lastpart-contact{
     width: auto;
+    flex-wrap: wrap;
   }
 
 }
