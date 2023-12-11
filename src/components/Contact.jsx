@@ -17,7 +17,7 @@ const Contact = () => {
           <input type="email" placeholder="Email" />
           <input type="number" placeholder="Phone number" />
           <select name="" id="" className="c-drop1">
-            <option value="">How did you find us</option>
+            <option value="">How did you find us ?</option>
           </select>
           <button className="c-btn">Send</button>
           
