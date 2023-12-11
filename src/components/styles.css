@@ -656,6 +656,28 @@
   text-align: left;
 }
 
+@media (max-width: 450px) {
+  .last-sec {
+    padding: 4rem 0px 4rem 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .f-logo {
+    width: 80%;
+  }
+  .f-links {
+    width: 80%;
+  }
+  .f-searchbar {
+    width: 80%;
+  }
+}
+
+
+
+
+
 /* About Us Page Styling */
 
 .about-main {
@@ -931,7 +953,7 @@ select {
   width: 34.0625rem;
   height: 43.75rem;
   right: 375px;
- 
+
   top: 100px;
 }
 .c-btn {
@@ -949,62 +971,59 @@ select {
 }
 
 .c-btn:hover {
-    border: 1px solid #ed1c24;
-    color: #ed1c24;
-    background-color: #fff;
+  border: 1px solid #ed1c24;
+  color: #ed1c24;
+  background-color: #fff;
 }
 
 .lastpart-contact {
-    display: flex;
-    width: 545px;
-    gap: 2.35rem;
-    height: 130px;
-
+  display: flex;
+  width: 545px;
+  gap: 2.35rem;
+  height: 130px;
 }
 
 .conatct-p {
-    display: flex;
-    gap: 0.9rem;
-    width: 130px;
-    /* height: 150px; */
-    align-items: center;
+  display: flex;
+  gap: 0.9rem;
+  width: 130px;
+  /* height: 150px; */
+  align-items: center;
 }
 
 .conatct-p img {
-    width: 1.75rem;
-    height: 1.75rem;
+  width: 1.75rem;
+  height: 1.75rem;
 }
 
 .phone-information {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
 }
 
 .phone-information h6 {
-    color: #000;
-    font-family: Inter;
-    font-size: 0.8125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.25rem; /* 153.846% */
-    letter-spacing: 0.01625rem;
-    text-transform: uppercase;
-    margin-bottom: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem; /* 153.846% */
+  letter-spacing: 0.01625rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 .phone-information p {
-    color: #ED1C24;
-    font-family: Inter;
-    font-size: 0.8125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.25rem;
-    letter-spacing: 0.01625rem;
-    margin-bottom: 0px;
+  color: #ed1c24;
+  font-family: Inter;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  letter-spacing: 0.01625rem;
+  margin-bottom: 0px;
 }
 
 /* Contact */
-
 
 /* Responsive styles for tablets */
 @media (max-width: 768px) {
@@ -1028,26 +1047,23 @@ select {
   .contact-form input,
   .contact-form select,
   .c-btn {
-    width: 100%; 
+    width: 100%;
   }
 
   .i2 {
     display: none;
-   
   }
-  .rectangle{
+  .rectangle {
     display: none;
   }
 }
 
 /* Responsive styles for mobile */
 @media (max-width: 480px) {
-  
   .contact-form p {
-    width: auto; 
-  }
-  .lastpart-contact{
     width: auto;
   }
-
+  .lastpart-contact {
+    width: auto;
+  }
 }
