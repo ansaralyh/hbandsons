@@ -98,3 +98,14 @@ body {
 }
 
 
+@media (max-width: 780px) {
+  .swiper {
+    width: 100%;
+  }
+  .slider-content {
+    gap: 7px;
+  }
+  .slider-content h5 {
+    font-size: 17px;
+  }
+}
